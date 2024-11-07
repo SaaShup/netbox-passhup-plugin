@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "netbox-passhup-plugin"
+version = "0.0.1"
+authors = [
+  { name="Vincent Simonin", email="vincent@saashup.com" }
+]
+description = "Manage Passhup Netbox distribution initialization and behaviours."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+keywords = ["netbox", "netbox-plugin", "passhup"]
+
+[project.urls]
+"Homepage" = "https://github.com/SaaShup/netbox-passhup-plugin"
+"Bug Tracker" = "https://github.com/SaaShup/netbox-passhup-plugin/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["netbox_passhup_plugin*"]
