@@ -8,7 +8,7 @@ Below the compatibility list of the Netbox Docker PLugin and Netbox. Please chos
 
 | Netbox Version | Netbox Docker Plugin Version |
 | -------------- | ---------------------------- |
-| 4.1.\*         | 0.0.\*                       |
+| 4.1.\*         | 0.\*                       |
 
 You can follow [the official plugins installation
 instructions](https://docs.netbox.dev/en/stable/plugins/#installing-plugins).
