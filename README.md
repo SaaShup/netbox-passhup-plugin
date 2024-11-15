@@ -1,4 +1,4 @@
-# Netbox Docker Plugin
+# Netbox Passhup Plugin
 
 Manage Passhup Netbox distribution initialization and behaviours.
 
